@@ -1,0 +1,40 @@
+.list-card {
+  width: 100%;
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 650px) {
+  .list-card {
+    width: 45%;
+    margin-right: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .list-card {
+    width: 30%;
+  }
+}
+
+.oppTeamImage {
+  height: 150px;
+  width: 150px;
+}
+.text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.green-color {
+  color: #18ed66;
+}
+.red-color {
+  color: #e31a1a;
+}
